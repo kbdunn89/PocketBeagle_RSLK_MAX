@@ -1,0 +1,9 @@
+[Unit]
+Description=pin_config
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/debian/bin/pin_config.sh
+
+[Install]
+WantedBy=multi-user.target
